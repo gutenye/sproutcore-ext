@@ -1,0 +1,30 @@
+{
+  "name": "sproutcore-ext",
+  "summary": "Some extensions to SproutCore",
+  "description": "Some extensions to SproutCore",
+  "homepage": "http://github.com/GutenYe/sproutcore-ext",
+  "author": "Guten",
+  "version": "0.0.1",
+  "directories": {
+    "lib": "lib"
+  },
+  "bpm:build": {
+    "bpm_libs.js": {
+      "files": [
+        "lib"
+      ]
+    },
+    "sproutcore-ext/bpm_tests.js": {
+      "files": [
+        "spec"
+      ]
+    }
+  },
+  "dependencies": {
+		"spade": ">= 0",
+    "sproutcore": ">= 0.pre"
+  },
+  "dependencies:development": {
+    "spade-jasmine": ">= 0"
+  }
+}
