@@ -18,7 +18,7 @@ see source code.
 Resources
 ---------
 
-* [bpm](https://github.com/bpm/bpm) a system for managing resource dependencies for client-side browser applications
+* [sproutcore](https://github.com/sproutcore/sproutcore20) a JavaScript framework that does all of the heavy lifting that you'd normally have to do by hand
 
 Copyright
 ---------
