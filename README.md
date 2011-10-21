@@ -11,7 +11,6 @@ API
 
 * SC.Object#keys()
 * SC.Object#toObject()
-* window.pd
 
 see source code.
 

@@ -22,18 +22,3 @@ SC.Object.reopen
       continue if k.match(/^_/)
       obj[k] = @get(k)
     obj
-
-# print with debug, easy for search.
-#
-# @example
-#
-#   pd 'inside coolFunc', this, arguments
-#   search: grep 'pd ' -R lib 
-#
-# @param arguments
-window.pd = ()->
-  pd.history ?= []
-  pd.history.push arguments
-  if this.console
-      arguments.callee = arguments.callee.caller
-      console.log( Array.prototype.slice.call(arguments) )
